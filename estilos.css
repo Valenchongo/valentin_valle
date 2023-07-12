@@ -376,7 +376,7 @@ border-bottom: 1px solid grey;
 
 .container_importante{
 
-border: 2px solid #0146ee;
+border: 3px solid #0146ee;
 background-color: white;
 width: 90%;
 margin: auto;
@@ -394,7 +394,7 @@ font-size: 22px;
 color: black;
 padding: 12px;
 text-align: left;
-font-weight: 1;
+
 }
 
 #clientes{
