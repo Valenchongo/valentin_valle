@@ -370,7 +370,6 @@ font-weight: 100;
 margin-bottom: 30px;
 }
 #importante{
-border-bottom: 1px solid grey;
 }
 
 
@@ -384,7 +383,7 @@ margin-top: 50px;
 margin-bottom: 50px;
 }
 .header_importante h3{
-background-color: #0146ee; 
+background-color: #011444; 
 font-size: 33px;
 padding: 10px;
 }
@@ -436,6 +435,7 @@ border:2px solid #0146ee
 .contenedor-modificaciones{
 width: 80%;
 margin: auto;
+margin-bottom: 50px;
 background-color: #011444;
 border: 5px solid #0146ee;
 }
@@ -455,6 +455,10 @@ background-color: #0146ee;
 margin-left: 10px;
 margin-top: 5px;
 }
+
+#sect_precios{
+  border-bottom: 1px solid gray;
+}
 #sect_precios p {
 text-align: left;
 font-size: 23px;
@@ -467,4 +471,86 @@ background-color: transparent;
 .h3_precios{
 font-size: 35px;
 margin-top: 50px;
+}
+
+footer{
+  background-color: #011020;
+  height: 300px;
+  margin-top: 50px;
+  ;
+}
+
+footer h3{
+  color: white;
+}
+
+.tiktok{
+    
+  width: 60px;
+  height: 60px;
+  margin-left: 10px;
+  
+}
+
+.instagram{
+  width: 50px;
+  height: 50px;;
+  margin-bottom: 4px;
+  margin-right: 10px;
+  background-color:black ;
+  
+}
+
+h3{
+  background-color: transparent;
+}
+
+.social{
+  background-color: transparent;
+  
+}
+a{
+  background-color: transparent;
+}
+
+.social_media{
+  background-color: transparent;
+  margin-top: 25px;
+}
+.logo_footer{
+  background-color: transparent;
+  margin: auto;
+  padding-top: 50px;
+  width: 200px;
+}
+.logo_footer h2{
+ background-color: rgb(60, 60, 61);
+ width:100px;
+ height: 30px;
+ margin: auto;
+ font-size: 15px;
+ text-align: center;
+ padding-top: 10px;
+
+}
+
+.logo_footer h3{
+  font-weight: 1;
+  font-size: 15px;
+  margin-top: 15px;
+
+}
+
+.sub_footer{
+  width: 50px;
+  min-height: 3px;
+  background-color: #087cfc;
+  margin: auto;
+  margin-top: 5px;
+}
+
+.email{
+  font-weight: 1;
+  font-size: 15px;
+  margin-top: 15px;
 }
