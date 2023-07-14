@@ -3,7 +3,7 @@
   background-color: #1e1f26;
   color: white;
   margin: 0;
-  font-family: "Roboto",sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   text-align: center;
 }
 
@@ -436,11 +436,19 @@ border:2px solid #0146ee
 width: 80%;
 margin: auto;
 margin-bottom: 50px;
-background-color: #011444;
+color: black;
+background-color: white;
 border: 5px solid #0146ee;
+}
+p{
+  font-weight: 1000;
+}
+.contenedor-modificaciones p{
+  color: black;
 }
 .h4_price{
 margin-left: 0;
+color: black;
 margin-top: 10px;
 text-align: left;
 padding-left: 10px;
