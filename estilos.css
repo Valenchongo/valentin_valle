@@ -161,6 +161,10 @@ header h3{
   margin-top: 40px;
 
 }
+.icon{
+  width:35px; 
+  height:35px
+}
 .ul li{
   margin-left: -30px;
   margin-top: 30px;
@@ -239,6 +243,13 @@ font-weight: 1;
 .h3_plantillas{
 margin-top: 50px;
 }
+.title_plantilla{
+  margin-left: 0;
+  text-align: start;
+  margin-left: 5%;
+  font-weight: 1;
+  font-size: 16px;
+}
 .precio{
 width: 300px;
 height: 300px;
@@ -311,6 +322,7 @@ margin-top: 20px;
 border:2px solid #001f6c;
 
 }
+
 .container_dark{
 margin-top: 50px;
 margin-bottom: 50px;
@@ -369,8 +381,27 @@ font-weight: 100;
 .ultima_offer{
 margin-bottom: 30px;
 }
-#importante{
+
+#importante h3{
+  text-align: center;
+  font-size: 20px;
+  margin-top: 50px;
 }
+.sub_importante{
+  width: 200px;
+  height: 4px;
+  background-color: #0146ee;
+  margin: auto;
+  margin-top: 4px;
+}
+#importante p{
+  width: 80%;
+  margin: auto;
+  text-align: start;
+  margin-top: 20PX;
+  margin-bottom: 10PX;
+}
+
 
 
 .container_importante{
@@ -382,8 +413,13 @@ margin: auto;
 margin-top: 50px;
 margin-bottom: 50px;
 }
+.header_importante{
+
+background-color:#011444 ;
+}
+
 .header_importante h3{
-background-color: #011444; 
+background-color: transparent; 
 font-size: 33px;
 padding: 10px;
 }
@@ -393,6 +429,7 @@ font-size: 22px;
 color: black;
 padding: 12px;
 text-align: left;
+
 
 }
 
@@ -432,12 +469,14 @@ margin-top: 20px;
 margin-bottom: 50px;
 border:2px solid #0146ee
 }
+
 .contenedor-modificaciones{
 width: 80%;
 margin: auto;
 margin-bottom: 50px;
 color: black;
 background-color: white;
+border-radius: 30px;
 border: 5px solid #0146ee;
 }
 p{
@@ -445,6 +484,7 @@ p{
 }
 .contenedor-modificaciones p{
   color: black;
+  padding-bottom:10px;
 }
 .h4_price{
 margin-left: 0;
@@ -485,7 +525,7 @@ footer{
   background-color: #011020;
   height: 300px;
   margin-top: 50px;
-  ;
+  
 }
 
 footer h3{
@@ -561,4 +601,128 @@ a{
   font-weight: 1;
   font-size: 15px;
   margin-top: 15px;
+}
+
+@media (min-width:1006px){
+  #plantillas h3{
+    font-size: 45px;
+  }
+  .sub{
+    width: 130px;
+  }
+  #plantillas p{
+    max-width: 800px;
+    font-size: 30px;
+  }
+  .h3_plantillas{
+    font-size: 45px;
+  }
+  .container_plantillas{
+    display: flex ;
+    flex-direction: row;
+    margin: auto;
+  }
+  .title_web{
+    margin: auto;
+    margin-top: 50px;
+
+  }
+  .sub_h4{
+    margin: auto;
+    width: 70px;
+    font-weight: 600;
+    }
+  
+  .title_plantilla{
+    text-align: center;
+    margin: auto;
+    font-size: 30px;
+  }
+  .img_cliente{
+    max-width: 700px;
+  }
+  #ofrece h3{
+    font-size: 45px;
+  }
+  .container_offer {
+    width:500px ;
+    height: 250px;
+  }
+  .icon{
+    width: 56px;
+    height: 56px;
+  }
+  .container_offer p {
+    font-size: 25px;
+  }
+  #clientes h3{
+    font-size: 45px;
+  }
+  .title_web{
+    margin: auto;
+    margin-top:60px ;
+    text-align: center;
+  }
+  .title_web h4{
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+  }
+  #clientes h4{
+    text-align: center;
+    margin-left: 0;
+    margin-top: 5px;
+    font-weight: 1;
+    }
+    .h3_precios{
+      font-size: 45px;
+    }
+    .precio{
+      width:480px;
+      height: 480px;
+     
+    }
+    
+    .h1_precio{
+      font-size: 48px;
+      margin-top: 100px;
+    }
+
+    .precio h2{
+      font-size: 80px;
+    }
+    .button_precio{
+      width: 192px;
+      height: 60px;
+      font-size: 23px;
+      transition: 1s;
+    }
+    .button_precio:hover{
+      background-color: #052985;
+    }
+
+    .contenedor-modificaciones{
+      max-width: 500px;
+      margin: auto;
+      
+
+    }
+    .container_precios_info{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      max-width: 1400px;
+      margin: auto;
+      
+    }
+    #importante h3{
+      font-size: 45px;
+    }
+
+    #importante p{
+      font-size: 30px;
+      max-width: 800px;
+      margin-top: 30px;
+      font-weight: 1;
+    }
 }
