@@ -24,6 +24,12 @@ header h3{
   padding-top: 20px;
   padding-left: 20px;
 }
+header img{
+  width: 55px;
+  height: 50px;
+  margin: auto;
+  margin-left: 20px;
+}
 .hamburger-button {
   display: flex;
   flex-direction: column;
@@ -132,7 +138,7 @@ header h3{
   transition: top .5s ease;
   display: flex;
   flex-direction: column;
-  z-index:0;
+  z-index:1;
 
 }
 .contenedor_ul{
@@ -186,26 +192,79 @@ header h3{
   position: absolute;
 
 }
+
 #principal{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   height: 100vh;
   width: 100%;
   background-image:linear-gradient(
       0deg,
-      rgba(0,0,0,0.5),
+      rgba(16, 36, 216, 0.5),
       rgba(0,0,0,0.5)
   )
-  ,url("img/imagen.jpg");
+  ;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   text-align: center;
 }
+.logo_css{
+  display: flex;
+  margin: auto;
+  margin-top: 30vh;
+  margin-bottom: 50px;
+  background-color: transparent;
+
+
+}
+.v-shape{
+  display: flex;
+  flex-direction: row;
+  background-color: transparent;
+  
+
+}
+.left-line{
+
+  transform: skewX(-25deg);
+  height: 100px;
+  width: 20px;
+  background-color: white;
+}
+.left-linev{
+  transform: skewX(25deg);
+  height: 100px;
+  width: 20px;
+  background-color: white;
+}
+.right-linev{
+  transform: skewX(-25deg);
+  height: 100px;
+  width: 20px;
+  background-color: white;
+  margin-left: 33px;
+}
+.right-line{
+  transform: skewX(25deg);
+  height: 100px;
+  width: 20px;
+  background-color: white;
+  margin-left: 33px;
+}
+.v{
+  
+  margin-left: 10px;
+  
+}
 #principal h1{
   background-color: transparent;
   font-size: 55px;
-  padding-top: 40vh;
+ 
   color: white;
 }
+
 #principal h3{
   background-color: transparent;
   color: white;
@@ -602,6 +661,11 @@ a{
   font-weight: 1;
   font-size: 15px;
   margin-top: 15px;
+}
+
+.logo_footer img{
+  background-color: transparent;
+  width:80px;
 }
 
 @media (min-width:1006px){
